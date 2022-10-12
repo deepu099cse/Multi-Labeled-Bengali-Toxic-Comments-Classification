@@ -1,6 +1,7 @@
 # bangla_db
 
-There are one multi-label abusive comment dataset: Bangla-Abusive-Comment-Dataset https://github.com/aimansnigdha/Bangla-Abusive-Comment-Dataset
+There are one multi-label abusive comment dataset: 
+Bangla-Abusive-Comment-Dataset https://github.com/aimansnigdha/Bangla-Abusive-Comment-Dataset
 Two multi-class hate speech and cyberbullying datasets: 
 Bengali Hate Speech Dataset https://github.com/rezacsedu/Bengali-Hate-Speech-Dataset,
 Bangla Online Comments Dataset https://data.mendeley.com/datasets/9xjx8twk8p/1
