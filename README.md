@@ -1,4 +1,4 @@
-# bangla_db
+#  Multi_labeled_toxic_comments
 
 There are one multi-label abusive comment dataset: 
 Bangla-Abusive-Comment-Dataset https://github.com/aimansnigdha/Bangla-Abusive-Comment-Dataset
