@@ -5,8 +5,8 @@ We have collected the text samples from these three datasets and categorize them
 
 Class -> No. of instances
 
-vulgar -> 2504                                                                 
-hate -> 1894                                                                
+vulgar -> 2505                                                                 
+hate -> 1898                                                                
 religious -> 1418                                                                 
 threat -> 1419                                                               
 troll -> 1643                                                                
