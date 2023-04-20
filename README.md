@@ -11,3 +11,15 @@ religious -> 1418
 threat -> 1419                                                               
 troll -> 1643                                                                
 insult -> 2719                                                                 
+
+
+# Citation:
+@INPROCEEDINGS{10101588,
+  author={Belal, Tanveer Ahmed and Shahariar, G. M. and Kabir, Md. Hasanul},
+  booktitle={2023 International Conference on Electrical, Computer and Communication Engineering (ECCE)}, 
+  title={Interpretable Multi Labeled Bengali Toxic Comments Classification using Deep Learning}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-6},
+  doi={10.1109/ECCE57851.2023.10101588}}
