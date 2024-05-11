@@ -59,11 +59,11 @@ machine learning models.
 	- Non-Toxic - 7585 
 
 - Class wise data statistics
-<img src="stats.png" width="200" height="100">
+<img src="stats.png" width="250" height="200">
 
 ## Methodology
 
-<img src="pipeline.png" width="700" height="400">
+<img src="pipeline.png" width="800" height="400">
                                                              
 
 ## Citation:
