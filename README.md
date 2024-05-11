@@ -71,10 +71,10 @@ machine learning models.
 <img src="binary_result.png" width="500" height="150">
 
 - Multi-label classification 
-<img src="multi-label result.png" width="500" height="200">
+<img src="multi-label result.png" width="500" height="170">
 
 - Class-wise performance for CNN-BiLSTM with Attention model                                              
-<img src="class-wise result.png" width="500" height="200">
+<img src="class-wise result.png" width="500" height="170">
 
 ## LIME Explanation
 
