@@ -32,19 +32,36 @@ The repository has two folders:
 
 
 ## Dataset Statistics
+<p align="justify">
+The text samples were gathered from three sources: the
+multi-labeled <em>Bangla-Abusive-Comment-Dataset (https://github.com/aimansnigdha/Bangla-Abusive-Comment-Dataset)</em> and the
+multi-class <em>Bengali Hate Speech Dataset (https://github.com/rezacsedu/Bengali-Hate-Speech-Dataset)</em> and <em>Bangla
+Online Comments Dataset (https://data.mendeley.com/datasets/9xjx8twk8p/1)</em>. Upon careful examination, it
+was determined that the original labeling of the texts in these
+datasets was not accurate or consistent. In some cases, the
+texts were deemed to belong in multiple categories at once,
+leading to the decision to manually categorize them into six
+classes: vulgar, hate, religious, threat, troll, insult, where each
+text could be assigned multiple labels. Reclassifying the texts
+from multiple datasets into a new set of categories is crucial
+for several reasons, including ensuring consistency, enhancing
+data quality, providing more insightful information about the
+nature and extent of toxicity, boosting the performance of
+machine learning models, and streamlining data management.
+The reclassification also offers a clearer understanding of the
+toxicity present in the data and improves the accuracy of
+machine learning models.
+</p>
 
-There are one multi-label abusive comment dataset: Bangla-Abusive-Comment-Dataset https://github.com/aimansnigdha/Bangla-Abusive-Comment-Dataset and two multi-class hate speech and cyberbullying datasets: Bengali Hate Speech Dataset https://github.com/rezacsedu/Bengali-Hate-Speech-Dataset, Bangla Online Comments Dataset https://data.mendeley.com/datasets/9xjx8twk8p/1 publicly available.
-We have collected the text samples from these three datasets and categorize them manually in six classes: vulgar, hate, religious, threat, troll, insult where each sample text can be in multiple labels. For annotation purpose, we took help from three expert annotators and on the annotator's individual judgments for each class, we use the majority vote. There are in total 16,073 instances in the dataset. Among them 7,585 instances are Non-toxic and 8,488 instances are Toxic.
+- Number of Total Data: 16073
 
-Class -> No. of instances
+	- Toxic - 8488 
+	- Non-Toxic - 7585 
 
-vulgar -> 2505                                                                 
-hate -> 1898                                                                
-religious -> 1418                                                                 
-threat -> 1419                                                               
-troll -> 1643                                                                
-insult -> 2719                                                                 
+- Class wise data statistics
+<img src="stats.png" width="400" height="300">
 
+                                                             
 
 ## Citation:
 ```Python
