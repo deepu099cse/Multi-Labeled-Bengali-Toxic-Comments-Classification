@@ -20,7 +20,7 @@ proposed models, we utilized <em>Local Interpretable Model-Agnostic Explanations
 
 ## Repository Structure
 
-The repository has two folders:
+The repository has three folders:
 
 - **Codes**: All the codes for proposed models.
 
@@ -30,6 +30,7 @@ The repository has two folders:
 	If all the six categories have 0, then the comment is considered <em>not toxic</em>.
 	- The zip file contains the train, test, validation data split for the experimental results reported in the paper. 
 
+- **Figs**: Contains images used in the readme file.
 
 ## Dataset Statistics
 <p align="justify">
