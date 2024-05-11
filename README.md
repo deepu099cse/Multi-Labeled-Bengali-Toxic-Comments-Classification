@@ -64,7 +64,14 @@ machine learning models.
 ## Methodology
 
 <img src="pipeline.png" width="800" height="400">
-                                                             
+
+## Performance Comparison
+
+- Binary classification 
+
+- Multi-label classification 
+
+- Class-wise performance for CNN-BiLSTM with Attention model                                              
 
 ## LIME Explanation
 
