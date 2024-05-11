@@ -68,17 +68,20 @@ machine learning models.
 ## Performance Comparison
 
 - Binary classification 
+<img src="binary_result.png" width="300" height="200">
 
 - Multi-label classification 
+<img src="multi-label result.png" width="300" height="200">
 
 - Class-wise performance for CNN-BiLSTM with Attention model                                              
+<img src="class-wise result.png" width="300" height="200">
 
 ## LIME Explanation
 
-<img src="example.png" width="700" height="400">
+<img src="example.png" width="650" height="350">
 
 
-## Citation:
+## Citation
 ```Python
 @INPROCEEDINGS{10101588,
   author={Belal, Tanveer Ahmed and Shahariar, G. M. and Kabir, Md. Hasanul},
