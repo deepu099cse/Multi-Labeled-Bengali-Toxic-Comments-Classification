@@ -34,9 +34,9 @@ The repository has two folders:
 ## Dataset Statistics
 <p align="justify">
 The text samples were gathered from three sources: the
-multi-labeled <em>Bangla-Abusive-Comment-Dataset (https://github.com/aimansnigdha/Bangla-Abusive-Comment-Dataset)</em> and the
-multi-class <em>Bengali Hate Speech Dataset (https://github.com/rezacsedu/Bengali-Hate-Speech-Dataset)</em> and <em>Bangla
-Online Comments Dataset (https://data.mendeley.com/datasets/9xjx8twk8p/1)</em>. Upon careful examination, it
+multi-labeled <em>"Bangla-Abusive-Comment-Dataset" (https://github.com/aimansnigdha/Bangla-Abusive-Comment-Dataset)</em> and the
+multi-class <em>"Bengali Hate Speech Dataset" (https://github.com/rezacsedu/Bengali-Hate-Speech-Dataset)</em> and <em>"Bangla
+Online Comments Dataset" (https://data.mendeley.com/datasets/9xjx8twk8p/1)</em>. Upon careful examination, it
 was determined that the original labeling of the texts in these
 datasets was not accurate or consistent. In some cases, the
 texts were deemed to belong in multiple categories at once,
@@ -59,7 +59,7 @@ machine learning models.
 	- Non-Toxic - 7585 
 
 - Class wise data statistics
-<img src="stats.png" width="400" height="300">
+<img src="stats.png" width="400" height="200">
 
                                                              
 
