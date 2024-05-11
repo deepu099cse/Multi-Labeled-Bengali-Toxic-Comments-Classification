@@ -3,13 +3,13 @@
 This paper presents a deep learning based pipeline for categorizing Bengali toxic comments, in which at 
 first a binary classification model is used to determine whether a comment is toxic or not, and then a multi-label 
 classifier is employed to determine which toxicity type the comment belongs to. For this purpose, 
-we have prepared a manually labeled dataset consisting of 16,073 instances among which 8,488 are _Toxic_ 
-and any toxic comment may correspond to one or more of the six toxic categories – _vulgar_, _hate_, _religious_, _threat_, _troll_, 
-and _insult_ simultaneously. *Long Short Term Memory (LSTM) with BERT Embedding* achieved 89.42% accuracy 
-for the binary classification task while as a multi-label classifier, a combination of *Convolutional Neural Network* 
-and *Bi-directional Long Short Term Memory (CNN-BiLSTM) with attention mechanism* achieved 78.92% accuracy and 0.86 as weighted F1-score. 
+we have prepared a manually labeled dataset consisting of 16,073 instances among which 8,488 are <em>Toxic</em> 
+and any toxic comment may correspond to one or more of the six toxic categories – <em>vulgar, hate, religious, threat, troll,</em> 
+and <em>insult</em> simultaneously. <em>Long Short Term Memory (LSTM) with BERT Embedding</em> achieved 89.42% accuracy 
+for the binary classification task while as a multi-label classifier, a combination of <em>Convolutional Neural Network</em> 
+and <em>Bi-directional Long Short Term Memory (CNN-BiLSTM) with attention mechanism</em> achieved 78.92% accuracy and 0.86 as weighted F1-score. 
 To explain the predictions and interpret the word feature importance during classification by the 
-proposed models, we utilized *Local Interpretable Model-Agnostic Explanations (LIME)* framework.
+proposed models, we utilized <em>Local Interpretable Model-Agnostic Explanations (LIME)</em> framework.
 </p>
 
 - The paper is published in [International Conference on Electrical, Computer and Communication Engineering (ECCE)](https://ieeexplore.ieee.org/xpl/conhome/10101485/proceeding) in 2023.
@@ -18,7 +18,22 @@ proposed models, we utilized *Local Interpretable Model-Agnostic Explanations (L
 
 - **arXiv PDF**: https://arxiv.org/abs/2304.04087
 
+## Repository Structure
 
+The repository has two folders:
+
+- Codes: All the codes for proposed models.
+
+- Dataset: Contains two files (a) one csv and (b) one zip file.
+	
+		- The csv file contains all the 16,073 instances altogether. It has seven columns: <em>text, vulgar, hate, religious, threat, troll, Insult.</em>
+		The <em>text</em> column contains the Bangla comments, and the rest six columns contain either 0 or 1. 1 indicates the comment belongs to that toxic category.
+		If all the six categories have 0, then the comment is considered <em>not toxic</em>.
+		
+		- The zip file contains the train, test, validation data split for the experimental results reported in the paper. 
+
+
+## Dataset
 
 There are one multi-label abusive comment dataset: Bangla-Abusive-Comment-Dataset https://github.com/aimansnigdha/Bangla-Abusive-Comment-Dataset and two multi-class hate speech and cyberbullying datasets: Bengali Hate Speech Dataset https://github.com/rezacsedu/Bengali-Hate-Speech-Dataset, Bangla Online Comments Dataset https://data.mendeley.com/datasets/9xjx8twk8p/1 publicly available.
 We have collected the text samples from these three datasets and categorize them manually in six classes: vulgar, hate, religious, threat, troll, insult where each sample text can be in multiple labels. For annotation purpose, we took help from three expert annotators and on the annotator's individual judgments for each class, we use the majority vote. There are in total 16,073 instances in the dataset. Among them 7,585 instances are Non-toxic and 8,488 instances are Toxic.
