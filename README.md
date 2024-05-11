@@ -59,7 +59,7 @@ machine learning models.
 	- Non-Toxic - 7585 
 
 - Class wise data statistics
-<img src="stats.png" width="250" height="200">
+<img src="stats.png" width="250" height="180">
 
 ## Methodology
 
@@ -68,7 +68,7 @@ machine learning models.
 
 ## LIME Explanation
 
-<img src="example.png" width="800" height="400">
+<img src="example.png" width="600" height="300">
 
 
 ## Citation:
