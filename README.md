@@ -25,12 +25,10 @@ The repository has two folders:
 - Codes: All the codes for proposed models.
 
 - Dataset: Contains two files (a) one csv and (b) one zip file.
-	
-		- The csv file contains all the 16,073 instances altogether. It has seven columns: <em>text, vulgar, hate, religious, threat, troll, Insult.</em>
-		The <em>text</em> column contains the Bangla comments, and the rest six columns contain either 0 or 1. 1 indicates the comment belongs to that toxic category.
-		If all the six categories have 0, then the comment is considered <em>not toxic</em>.
-		
-		- The zip file contains the train, test, validation data split for the experimental results reported in the paper. 
+	- The csv file contains all the 16,073 instances altogether. It has seven columns: <em>text, vulgar, hate, religious, threat, troll, Insult.</em>
+	The <em>text</em> column contains the Bangla comments, and the rest six columns contain either 0 or 1. 1 indicates the comment belongs to that toxic category.
+	If all the six categories have 0, then the comment is considered <em>not toxic</em>.
+	- The zip file contains the train, test, validation data split for the experimental results reported in the paper. 
 
 
 ## Dataset
