@@ -66,6 +66,11 @@ machine learning models.
 <img src="pipeline.png" width="800" height="400">
                                                              
 
+## LIME Explanation
+
+<img src="example.png" width="800" height="400">
+
+
 ## Citation:
 ```Python
 @INPROCEEDINGS{10101588,
