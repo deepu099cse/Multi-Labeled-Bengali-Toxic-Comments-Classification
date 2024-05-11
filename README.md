@@ -59,7 +59,7 @@ machine learning models.
 	- Non-Toxic - 7585 
 
 - Class wise data statistics
-<img src="stats.png" width="250" height="150">
+<img src="stats.png" width="250" height="170">
 
 ## Methodology
 
@@ -71,7 +71,7 @@ machine learning models.
 <img src="binary_result.png" width="500" height="150">
 
 - Multi-label classification 
-<img src="multi-label result.png" width="500" height="170">
+<img src="multi-label result.png" width="500" height="200">
 
 - Class-wise performance for CNN-BiLSTM with Attention model                                              
 <img src="class-wise result.png" width="500" height="170">
