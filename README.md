@@ -68,7 +68,7 @@ machine learning models.
 ## Performance Comparison
 
 - Binary classification 
-<img src="binary_result.png" width="500" height="200">
+<img src="binary_result.png" width="500" height="150">
 
 - Multi-label classification 
 <img src="multi-label result.png" width="500" height="200">
