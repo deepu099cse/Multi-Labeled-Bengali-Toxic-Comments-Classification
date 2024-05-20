@@ -84,13 +84,12 @@ machine learning models.
 
 ## Citation
 ```Python
-@INPROCEEDINGS{10101588,
-  author={Belal, Tanveer Ahmed and Shahariar, G. M. and Kabir, Md. Hasanul},
-  booktitle={2023 International Conference on Electrical, Computer and Communication Engineering (ECCE)}, 
-  title={Interpretable Multi Labeled Bengali Toxic Comments Classification using Deep Learning}, 
+@inproceedings{belal2023interpretable,
+  title={Interpretable multi labeled bengali toxic comments classification using deep learning},
+  author={Belal, Tanveer Ahmed and Shahariar, GM and Kabir, Md Hasanul},
+  booktitle={2023 International Conference on Electrical, Computer and Communication Engineering (ECCE)},
+  pages={1--6},
   year={2023},
-  volume={},
-  number={},
-  pages={1-6},
-  doi={10.1109/ECCE57851.2023.10101588}}
+  organization={IEEE}
+}
 ```
